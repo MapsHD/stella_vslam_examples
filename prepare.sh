@@ -9,6 +9,7 @@ apt install -y libyaml-cpp-dev libgflags-dev sqlite3 libsqlite3-dev
 apt install -y libglm-dev libglfw3-dev libpng-dev libjpeg-dev libeigen3-dev libboost-filesystem-dev libboost-program-options-dev
 apt install -y libglew-dev
 apt install -y autogen autoconf libtool
+apt install -y libopencv-dev
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
 apt install -y libprotobuf-dev protobuf-compiler
