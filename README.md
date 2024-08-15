@@ -18,7 +18,7 @@ Build stella_vslam_examples and its submodules :
 ``` sh
 cd stella_vslam_examples
 mkdir build && cd build
-cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 ```
 
