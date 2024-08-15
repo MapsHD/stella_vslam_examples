@@ -19,7 +19,7 @@ Build stella_vslam_examples and its submodules :
 cd stella_vslam_examples
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build .
+cmake --build . -j 4
 ```
 
 Built binaries are available inside build directory :
