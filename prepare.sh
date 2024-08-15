@@ -13,6 +13,9 @@ apt install -y libopencv-dev
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
 apt install -y libprotobuf-dev protobuf-compiler
+apt install -y  python3 python3-pip
+
+pip install argparse msgpack
 
 cd /tmp
 git clone https://github.com/stella-cv/FBoW.git

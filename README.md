@@ -46,6 +46,10 @@ Orb vocabulary is located in __stella_vslam_examples/assets__
 
 Sampe camera configs are located in __stella_vslam_examples/stella_vslam/example__
 
+To unpck map file use
+```sh
+python3 extract.py --map_path PATH_TO_MAP
+```
 
 ### License
 
