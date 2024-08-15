@@ -1,3 +1,6 @@
 [submodule "3rd/filesystem"]
 	path = 3rd/filesystem
 	url = https://github.com/gulrak/filesystem.git
+[submodule "stella_vslam"]
+	path = stella_vslam
+	url = https://github.com/mwlasiuk/stella_vslam.git

@@ -3,7 +3,8 @@ project(stella_vslam_examples LANGUAGES CXX C)
 
 # ----- Find dependencies -----
 
-find_package(stella_vslam REQUIRED)
+# find_package(stella_vslam REQUIRED)
+add_subdirectory(stella_vslam)
 
 # filesystem
 set(filesystem_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/3rd/filesystem/include)
@@ -112,7 +113,7 @@ foreach(EXECUTABLE_TARGET IN LISTS EXECUTABLE_TARGETS)
     # Link stella_vslam
     target_link_libraries(${EXECUTABLE_TARGET}
                           PRIVATE
-                          stella_vslam::stella_vslam
+                          stella_vslam
                           opencv_imgcodecs
                           opencv_videoio)
 
