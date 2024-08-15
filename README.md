@@ -9,8 +9,10 @@ Enter repository and run dependencies configuration script :
 ``` sh
 cd stella_vslam_examples
 chmod +x prepare.sh
-./prepare.sh
+sudo ./prepare.sh
 ```
+
+NOTE : If you get deprecation warning screen just wait for 20 seconds and then you will get another waning screen and after 60 seconds script will continue.
 
 Build stella_vslam_examples and its submodules :
 ``` sh
